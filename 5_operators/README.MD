@@ -17,27 +17,27 @@ Type Operators
 -JavaScript Arithmetic Operators
 
 
-Operator	Description
-+	        Addition
--	        Subtraction
-*	        Multiplication
-**	        Exponentiation (X^Y)
-/	        Division
-%	        Modulus (Division Remainder)
-++	        Increment
---	        Decrement
+Operator	Description <br>
+ (+)	        Addition  <br>
+(-)	        Subtraction<br>
+(*)	        Multiplication<br>
+**	        Exponentiation (X^Y)<br>
+/	        Division<br>
+%	        Modulus (Division Remainder)<br>
+++	        Increment<br>
+--	        Decrement<br>
 
 
--JavaScript Assignment Operators
+-JavaScript Assignment Operators<br><br>
 
-Operator	Example	       Same As
-=	        x = y	       x = y
-+=	        x += y	       x = x + y
--=	        x -= y	       x = x - y
-*=	        x *= y	       x = x * y
-/=	        x /= y	       x = x / y
-%=	        x %= y	       x = x % y
-**=	        x **= y	       x = x ** y
+Operator	Example	       Same As<br>
+=	        x = y	       x = y<br>
++=	        x += y	       x = x + y<br>
+-=	        x -= y	       x = x - y<br>
+*=	        x *= y	       x = x * y<br>
+/=	        x /= y	       x = x / y<br>
+%=	        x %= y	       x = x % y<br>
+**=	        x **= y	       x = x ** y<br>
 
 
 -JavaScript Comparison Operators
