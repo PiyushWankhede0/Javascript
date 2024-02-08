@@ -1,6 +1,5 @@
 # OPERATORS 
 
-
 <h2>Types of JavaScript Operators</h2>
 <p>There are different types of JavaScript operators:</p>
 <ul>
