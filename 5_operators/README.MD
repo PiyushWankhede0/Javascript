@@ -1,70 +1,163 @@
 # OPERATORS 
 
 
-Types of JavaScript Operators
-There are different types of JavaScript operators:
+<h2>Types of JavaScript Operators</h2>
+<p>There are different types of JavaScript operators:</p>
+<ul>
+  <li>Arithmetic Operators</li>
+  <li>Assignment Operators</li>
+  <li>Comparison Operators</li>
+  <li>String Operators</li>
+  <li>Logical Operators</li>
+  <li>Bitwise Operators</li>
+  <li>Ternary Operators</li>
+  <li>Type Operators</li>
+</ul>
 
-Arithmetic Operators
-Assignment Operators
-Comparison Operators
-String Operators
-Logical Operators
-Bitwise Operators
-Ternary Operators
-Type Operators
+<h3>JavaScript Arithmetic Operators</h3>
+<table border="1">
+  <tr>
+    <th>Operator</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>+</td>
+    <td>Addition</td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td>Subtraction</td>
+  </tr>
+  <tr>
+    <td>*</td>
+    <td>Multiplication</td>
+  </tr>
+  <tr>
+    <td>**</td>
+    <td>Exponentiation (X^Y)</td>
+  </tr>
+  <tr>
+    <td>/</td>
+    <td>Division</td>
+  </tr>
+  <tr>
+    <td>%</td>
+    <td>Modulus (Division Remainder)</td>
+  </tr>
+  <tr>
+    <td>++</td>
+    <td>Increment</td>
+  </tr>
+  <tr>
+    <td>--</td>
+    <td>Decrement</td>
+  </tr>
+</table>
 
+<h3>JavaScript Assignment Operators</h3>
+<table border="1">
+  <tr>
+    <th>Operator</th>
+    <th>Example</th>
+    <th>Same As</th>
+  </tr>
+  <tr>
+    <td>=</td>
+    <td>x = y</td>
+    <td>x = y</td>
+  </tr>
+  <tr>
+    <td>+=</td>
+    <td>x += y</td>
+    <td>x = x + y</td>
+  </tr>
+  <tr>
+    <td>-=</td>
+    <td>x -= y</td>
+    <td>x = x - y</td>
+  </tr>
+  <tr>
+    <td>*=</td>
+    <td>x *= y</td>
+    <td>x = x * y</td>
+  </tr>
+  <tr>
+    <td>/=</td>
+    <td>x /= y</td>
+    <td>x = x / y</td>
+  </tr>
+  <tr>
+    <td>%=</td>
+    <td>x %= y</td>
+    <td>x = x % y</td>
+  </tr>
+  <tr>
+    <td>**=</td>
+    <td>x **= y</td>
+    <td>x = x ** y</td>
+  </tr>
+</table>
 
--JavaScript Arithmetic Operators
+<h3>JavaScript Comparison Operators</h3>
+<table border="1">
+  <tr>
+    <th>Operator</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>==</td>
+    <td>equal to</td>
+  </tr>
+  <tr>
+    <td>===</td>
+    <td>equal value and equal type</td>
+  </tr>
+  <tr>
+    <td>!=</td>
+    <td>not equal</td>
+  </tr>
+  <tr>
+    <td>!==</td>
+    <td>not equal value or not equal type</td>
+  </tr>
+  <tr>
+    <td>&gt;</td>
+    <td>greater than</td>
+  </tr>
+  <tr>
+    <td>&lt;</td>
+    <td>less than</td>
+  </tr>
+  <tr>
+    <td>&gt;=</td>
+    <td>greater than or equal to</td>
+  </tr>
+  <tr>
+    <td>&lt;=</td>
+    <td>less than or equal to</td>
+  </tr>
+  <tr>
+    <td>?</td>
+    <td>ternary operator</td>
+  </tr>
+</table>
 
-
-Operator	Description <br>
- (+)	        Addition  <br>
-(-)	        Subtraction<br>
-(*)	        Multiplication<br>
-**	        Exponentiation (X^Y)<br>
-/	        Division<br>
-%	        Modulus (Division Remainder)<br>
-++	        Increment<br>
---	        Decrement<br>
-
-
--JavaScript Assignment Operators<br><br>
-
-Operator	Example	       Same As<br>
-=	        x = y	       x = y<br>
-+=	        x += y	       x = x + y<br>
--=	        x -= y	       x = x - y<br>
-*=	        x *= y	       x = x * y<br>
-/=	        x /= y	       x = x / y<br>
-%=	        x %= y	       x = x % y<br>
-**=	        x **= y	       x = x ** y<br>
-
-
--JavaScript Comparison Operators
-
-Operator	Description
-==	        equal to
-===	        equal value and equal type
-!=	        not equal
-!==	        not equal value or not equal type
->	        greater than
-<	        less than
->=	        greater than or equal to
-<=	        less than or equal to
-?	        ternary operator
-
-
-
-
--JavaScript Logical Operators
-
-Operator	Description
-&&	        logical and 
-both must be true then result will be true otherwise it will be false 
-
-||	        logical or
-only one need to be true then result will be true otherwise it will be false 
-
-!	        logical not
-it will turn true into false and 
-false into true 
+<h3>JavaScript Logical Operators</h3>
+<table border="1">
+  <tr>
+    <th>Operator</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>&amp;&amp;</td>
+    <td>logical and (both must be true)</td>
+  </tr>
+  <tr>
+    <td>||</td>
+    <td>logical or (only one need to be true)</td>
+  </tr>
+  <tr>
+    <td>!</td>
+    <td>logical not (true =&gt; false, false =&gt; true)</td>
+  </tr>
+</table>
