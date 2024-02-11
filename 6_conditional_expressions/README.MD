@@ -8,38 +8,48 @@
 <br>
     <p>  <strong>Syntax:</strong></p>
     <br>
-        <p>
+       <pre>
+        <code>
 window.alert("message");
 // Another syntax to use alert box is:
 alert("message");
-        </p>
+    </pre>
+        </code>
     <br>
     <p>
         <strong>2. Prompt box:</strong> It is also one of the types of popup boxes in JavaScript which is often used to take input a value before entering a page from the user. To proceed after entering an input value in the prompt, the user will have to click either “OK” or “Cancel”.
     </p>
     <p><strong>Syntax:</strong></p>
-    <p>
+    <pre>
+        <code>
 window.prompt("some message");
 // Another syntax to use alert box is:
 prompt("some message");
-        </p>
+    </pre>
+        </code>
         <br>
     <h2>JavaScript Control Structures</h2>
     <br>
     <p><strong>if:</strong> Use the if statement to specify a block of JavaScript code to be executed if a condition is true.</p>
     <p><strong>Syntax:</strong></p>
-    <p>
+    <pre>
+        <code>
 if (condition) {
     // block of code to be executed if the condition is true
-}</p><br>
+}</pre>
+        </code>
+        <br>
     <p><strong>else:</strong> Use the else statement to specify a block of code to be executed if the condition is false.</p>
-    <p>
+    <pre>
+        <code>
 if (condition) {
     // block of code to be executed if the condition is true
 } else {
     // block of code to be executed if the condition is false
 }
-        </p><br>
+        </pre>
+        </code>
+        <br>
     <p><strong>else if:</strong> Use the else if statement to specify a new condition if the first condition is false.</p>
     <p><strong>Syntax:</strong></p>
     <pre>
