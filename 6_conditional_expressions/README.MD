@@ -42,7 +42,8 @@ if (condition) {
         </p><br>
     <p><strong>else if:</strong> Use the else if statement to specify a new condition if the first condition is false.</p>
     <p><strong>Syntax:</strong></p>
-    <p>
+    <pre>
+        <code>
 if (condition1) {
     // block of code to be executed if condition1 is true
 } else if (condition2) {
@@ -50,7 +51,9 @@ if (condition1) {
 } else {
     // block of code to be executed if the condition1 is false and condition2 is false
 }
-        </p><br>
+         </code>
+    </pre>
+    <br>
     <h2>Usage of JavaScript switch statement</h2>
     <p>JavaScript switch statement is used with a break or default keyword (optional and both can be used together also).</p>
     <p><strong>Syntax:</strong></p>
